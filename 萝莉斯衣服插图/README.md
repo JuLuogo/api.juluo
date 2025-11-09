@@ -7,13 +7,13 @@ typora-root-url: ./..
 ## 衣服设计展示
 
 ### ***编号81-1***
-<img src="萝莉斯衣服插图/81 -1.png" style="zoom:50%;" />
+<img src="81 -1.png" style="zoom:50%;" />
 
 ### ***编号82***
-<img src="萝莉斯衣服插图/82.png" style="zoom:50%;" />
+<img src="82.png" style="zoom:50%;" />
 
 ### ***编号84***
-<img src="萝莉斯衣服插图/84.png" style="zoom:50%;" />
+<img src="84.png" style="zoom:50%;" />
 
 ## 设计特点
 

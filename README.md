@@ -25,11 +25,11 @@
 
 ***观赏面***
 
-<img src="/loge/1.png" alt="正面" style="zoom:25%;" />
+<img src="loge/1.png" alt="正面" style="zoom:25%;" />
 
 ***信息面***
 
-![](/loge/2.png)
+![](./loge/2.png)
 
 
 
