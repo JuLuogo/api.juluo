@@ -1,7 +1,7 @@
 # 📝 分析思考记录
 
 <div align="right">
-<small>[返回主目录](../README.md) | [返回思考过程目录](./README.md) | [查看最终报告](../最终整合分析报告.md)</small>
+<small>[返回主目录](../README.md) | [返回思考过程目录](./README.md) | [查看最终报告](../final-integrated-analysis-report.md)</small>
 </div>
 
 ## 📋 文档信息
@@ -115,7 +115,7 @@
 
 <div align="center">
 <small>
-[返回主目录](../README.md) | [查看最终报告](../最终整合分析报告.md) | [查看综合分析](../橘络人际关系综合分析报告.md) | [查看群聊分析](../基友交流群♂/README.md)
+[返回主目录](../README.md) | [查看最终报告](../final-integrated-analysis-report.md) | [查看综合分析](../juluo-relationship-analysis.md) | [查看群聊分析](../bros-chat-group/README.md)
 </small>
 </div>
 

@@ -1,7 +1,7 @@
 # 👤 橘络-私人聊天分析
 
 <div align="right">
-<small>[返回主目录](../README.md) | [返回私聊目录](./README.md) | [查看倒问分析](./倒问-私人聊天分析.md)</small>
+<small>[返回主目录](../README.md) | [返回私聊目录](./README.md) | [查看倒问分析](./dowen-private-chat-analysis.md)</small>
 </div>
 
 ## 📋 文档信息
@@ -230,7 +230,7 @@
 
 <div align="center">
 <small>
-[返回主目录](../README.md) | [查看最终报告](../最终整合分析报告.md) | [查看综合分析](../橘络人际关系综合分析报告.md) | [查看群聊分析](../bros-chat-group/README.md)
+[返回主目录](../README.md) | [查看最终报告](../final-integrated-analysis-report.md) | [查看综合分析](../juluo-relationship-analysis.md) | [查看群聊分析](../bros-chat-group/README.md)
 </small>
 </div>
 

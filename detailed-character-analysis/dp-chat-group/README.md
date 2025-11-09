@@ -1,7 +1,7 @@
 # 💻 DPの交流群分析文档
 
 <div align="right">
-<small>[返回主目录](../README.md) | [查看最终报告](../最终整合分析报告.md) | [查看综合分析](../橘络人际关系综合分析报告.md) | [查看基友群分析](../基友交流群♂/README.md)</small>
+<small>[返回主目录](../README.md) | [查看最终报告](../final-integrated-analysis-report.md) | [查看综合分析](../juluo-relationship-analysis.md) | [查看基友群分析](../bros-chat-group/README.md)</small>
 </div>
 
 ## 📋 文档信息
@@ -38,20 +38,20 @@ DPの交流群是一个以技术讨论为主的群聊，成员间保持着理性
 ### 分析文档列表
 
 ### 人物详细分析
-- [DP详细分析文档](./DP详细分析文档.md)
-- [小丁详细分析文档](./小丁详细分析文档.md)
-- [互动模式分析](./DPの交流群-互动模式分析.md)
-- [情绪与态度分析](./DPの交流群-情绪与态度分析.md)
-- [核心主题与高频词分析](./DPの交流群-核心主题与高频词分析.md)
+- [DP详细分析文档](./dp-detailed-analysis.md)
+- [小丁详细分析文档](./xiaoding-detailed-analysis.md)
+- [互动模式分析](./dp-chat-group-interaction-patterns.md)
+- [情绪与态度分析](./dp-chat-group-emotions-attitudes.md)
+- [核心主题与高频词分析](./dp-chat-group-themes-keywords.md)
 
 ### 分析维度
-- [人物互动关系分析](../人物互动关系分析.md) - 社交网络结构分析
-- [私人聊天-互动模式分析](../私人聊天/私人聊天-互动模式分析.md) - 互动行为模式分析
-- [私人聊天-情绪与态度分析](../私人聊天/私人聊天-情绪与态度分析.md) - 情感表达特点分析
-- [私人聊天-核心主题与高频词分析](../私人聊天/私人聊天-核心主题与高频词分析.md) - 话题偏好分析
+- [人物互动关系分析](../character-interaction-analysis.md) - 社交网络结构分析
+- [私人聊天-互动模式分析](../private-chat/private-chat-interaction-patterns.md) - 互动行为模式分析
+- [私人聊天-情绪与态度分析](../private-chat/private-chat-emotions-attitudes.md) - 情感表达特点分析
+- [私人聊天-核心主题与高频词分析](../private-chat/private-chat-themes-keywords.md) - 话题偏好分析
 
 ### 文档导航
-- [文档导航地图](../文档导航地图.md) - 完整文档索引和导航系统
+- [文档导航地图](../document-navigation-map.md) - 完整文档索引和导航系统
 
 ## 🔍 群聊核心特点
 
@@ -84,15 +84,15 @@ DPの交流群是一个以技术讨论为主的群聊，成员间保持着理性
 
 ## 🔗 相关文档
 
-- [人物互动关系分析](../人物互动关系分析.md)
-- [最终整合分析报告](../最终整合分析报告.md)
+- [人物互动关系分析](../character-interaction-analysis.md)
+- [最终整合分析报告](../final-integrated-analysis-report.md)
 - [主文档索引](../README.md)
 
 ---
 
 <div align="center">
 <small>
-[返回主目录](../README.md) | [查看最终报告](../最终整合分析报告.md) | [查看综合分析](../橘络人际关系综合分析报告.md) | [查看基友群分析](../基友交流群♂/README.md)
+[返回主目录](../README.md) | [查看最终报告](../final-integrated-analysis-report.md) | [查看综合分析](../juluo-relationship-analysis.md) | [查看基友群分析](../bros-chat-group/README.md)
 </small>
 </div>
 

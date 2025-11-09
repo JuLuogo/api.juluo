@@ -1,7 +1,7 @@
 # 聊天记录最终整合分析报告
 
 <div align="right">
-<small>[返回主目录](../README.md) | [查看人物关系](../人物互动关系分析.md) | [查看综合分析](../橘络人际关系综合分析报告.md)</small>
+<small>[返回主目录](../README.md) | [查看人物关系](../character-interaction-analysis.md) | [查看综合分析](../juluo-relationship-analysis.md)</small>
 </div>
 
 ## 📋 文档信息
@@ -152,29 +152,29 @@
 ## 🔗 相关文档
 
 ### 核心分析文档
-- [人物互动关系分析](./人物互动关系分析.md) - 群聊互动网络分析
-- [橘络人际关系综合分析报告](./橘络人际关系综合分析报告.md) - 多维度人际关系评估
+- [人物互动关系分析](./character-interaction-analysis.md) - 群聊互动网络分析
+- [橘络人际关系综合分析报告](./juluo-relationship-analysis.md) - 多维度人际关系评估
 - [DPの交流群分析文档](./dp-chat-group/README.md) - 技术导向型群聊分析
 - [基友交流群♂分析文档](./bros-chat-group/README.md) - 社交导向型群聊分析
 - [私人聊天分析](./private-chat/README.md) - 个人间私密交流分析
-- [倒问详细分析](./bros-chat-group/倒问详细分析文档.md) - 倒问性格特征和行为模式
-- [橘络-私人聊天分析](./private-chat/橘络-私人聊天分析.md) - 橘络私聊行为特点
-- [DP详细分析](./dp-chat-group/DP详细分析文档.md) - DP技术导向型交流风格
-- [橘络与倒问关系分析总结报告](./juluo-dowen-relationship-analysis/橘络与倒问关系分析总结报告.md) - 橘络与倒问关系深度分析
-- [橘络与王欣蕊关系分析报告](./橘络与王欣蕊关系分析报告.md) - 橘络与王欣蕊关系特点
-- [橘络与通宵倒问关系分析报告](./橘络与通宵倒问关系分析报告.md) - 橘络与通宵倒问关系发展
-- [互动模式分析](./人物互动关系分析.md) - 群聊与私人互动模式对比
-- [情绪与态度分析](./bros-chat-group/基友交流群♂-情绪与态度分析.md) - 情绪表达特点分析
-- [核心主题与高频词分析](./bros-chat-group/基友交流群♂-核心主题与高频词分析.md) - 话题分布特点
-- [文档导航地图](./文档导航地图.md) - 完整文档索引和导航系统
+- [倒问详细分析](./bros-chat-group/dowen-detailed-analysis.md) - 倒问性格特征和行为模式
+- [橘络-私人聊天分析](./private-chat/juluo-private-chat-analysis.md) - 橘络私聊行为特点
+- [DP详细分析](./dp-chat-group/dp-detailed-analysis.md) - DP技术导向型交流风格
+- [橘络与倒问关系分析总结报告](./juluo-dowen-relationship-analysis/juluo-dowen-relationship-summary.md) - 橘络与倒问关系深度分析
+- [橘络与王欣蕊关系分析报告](./juluo-wangxinrui-relationship-analysis.md) - 橘络与王欣蕊关系特点
+- [橘络与通宵倒问关系分析报告](./juluo-overnight-dowen-relationship-analysis.md) - 橘络与通宵倒问关系发展
+- [互动模式分析](./character-interaction-analysis.md) - 群聊与私人互动模式对比
+- [情绪与态度分析](./bros-chat-group/bros-chat-group-emotions-attitudes.md) - 情绪表达特点分析
+- [核心主题与高频词分析](./bros-chat-group/bros-chat-group-themes-keywords.md) - 话题分布特点
+- [文档导航地图](./document-navigation-map.md) - 完整文档索引和导航系统
 
 ---
 
 <div align="center">
 <small>
 [返回主目录](../README.md) | 
-[查看人物关系](../人物互动关系分析.md) | 
-[查看综合分析](../橘络人际关系综合分析报告.md) | 
+[查看人物关系](../character-interaction-analysis.md) | 
+[查看综合分析](../juluo-relationship-analysis.md) | 
 [查看群聊分析](../dp-chat-group/README.md)
 </small>
 </div>
