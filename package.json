@@ -4,6 +4,9 @@
   "description": "橘络人物分析文档 - VuePress版本",
   "main": "index.js",
   "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "serve": "vuepress serve docs",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "docs:serve": "vuepress serve docs"
