@@ -12,6 +12,34 @@ export default defineUserConfig({
   // Bundler配置
   bundler: viteBundler(),
   
+  // 性能优化配置 - 增强版本
+  bundlerConfig: {
+    vite: {
+      // 构建优化
+      build: {
+        // 代码分割优化
+        chunkSizeWarningLimit: 1000,
+        // 资源优化
+        assetsInlineLimit: 4096,
+        // 压缩优化
+        minify: 'esbuild',
+        // 资源输出优化
+        rollupOptions: {
+          output: {
+            // 资源文件命名优化
+            assetFileNames: 'assets/[name]-[hash][extname]',
+            chunkFileNames: 'chunks/[name]-[hash].js',
+            entryFileNames: 'entries/[name]-[hash].js'
+          }
+        }
+      },
+      // 预加载优化
+      optimizeDeps: {
+        include: ['vue', 'vue-router', '@vuepress/client']
+      }
+    }
+  },
+  
   // 主题配置
   theme: defaultTheme({
     // 导航栏
@@ -141,22 +169,6 @@ export default defineUserConfig({
     ['@vuepress/plugin-nprogress', true],
   ],
   
-  // 自定义样式
-  // extendsMarkdown配置已移除，因为VuePress 2.0不支持动态require
-  
-  // 性能优化配置
-  bundlerConfig: {
-    vite: {
-      // 构建优化
-      build: {
-        // 代码分割优化
-        chunkSizeWarningLimit: 1000,
-        // 资源优化
-        assetsInlineLimit: 4096
-      }
-    }
-  },
-  
   // 头部配置
   head: [
     ['link', { rel: 'icon', href: '/loge/1.png' }],
@@ -168,17 +180,5 @@ export default defineUserConfig({
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['meta', { name: 'msapplication-TileColor', content: '#3eaf7c' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' }]
-  ],
-  
-  // 缓存和性能优化
-  cache: true,
-  
-  // 构建输出配置
-  dest: './dist',
-  
-  // 临时文件目录
-  temp: './.vuepress/.temp',
-  
-  // 缓存目录
-  cacheDir: './.vuepress/.cache'
+  ]
 })
