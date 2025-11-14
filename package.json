@@ -1,0 +1,23 @@
+{
+  "name": "juluo-character-analysis",
+  "version": "1.0.0",
+  "description": "橘络人物分析文档 - VuePress版本",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:serve": "vuepress serve docs"
+  },
+  "keywords": ["橘络", "人物分析", "文档", "VuePress"],
+  "author": "橘络项目组",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0",
+    "@vuepress/plugin-search": "^2.0.0",
+    "@vuepress/plugin-back-to-top": "^2.0.0",
+    "@vuepress/plugin-medium-zoom": "^2.0.0",
+    "@vuepress/plugin-nprogress": "^2.0.0",
+    "@vuepress/theme-default": "^2.0.0"
+  },
+  "dependencies": {}
+}
