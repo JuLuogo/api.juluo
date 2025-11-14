@@ -1,11 +1,16 @@
-const { defaultTheme } = require('vuepress')
+import { defineUserConfig } from 'vuepress'
+import { defaultTheme } from '@vuepress/theme-default'
+import { viteBundler } from '@vuepress/bundler-vite'
 
-module.exports = {
+export default defineUserConfig({
   // 基础配置
   base: '/',
   lang: 'zh-CN',
   title: '橘络人物分析文档',
   description: '一个全面的橘络人物分析项目 - VuePress版本',
+  
+  // Bundler配置
+  bundler: viteBundler(),
   
   // 主题配置
   theme: defaultTheme({
@@ -29,10 +34,10 @@ module.exports = {
               text: '综合报告',
               collapsible: true,
               children: [
-                '/detailed-character-analysis/document-navigation-map.md',
-                '/detailed-character-analysis/final-integrated-analysis-report.md',
-                '/detailed-character-analysis/character-interaction-analysis.md',
-                '/detailed-character-analysis/juluo-relationship-analysis.md'
+                '/detailed-character-analysis/橘络社交关系全景分析报告.md',
+                '/detailed-character-analysis/聊天记录综合分析报告.md',
+                '/detailed-character-analysis/聊天记录综合对比分析报告.md',
+                '/detailed-character-analysis/橘络社交关系综合对比分析报告.md'
               ]
             },
             {
@@ -43,20 +48,14 @@ module.exports = {
                   text: 'DPの交流群',
                   collapsible: true,
                   children: [
-                    '/detailed-character-analysis/dp-chat-group/README.md',
-                    '/detailed-character-analysis/dp-chat-group/dp-detailed-analysis.md',
-                    '/detailed-character-analysis/dp-chat-group/xiaoding-detailed-analysis.md',
-                    '/detailed-character-analysis/dp-chat-group/dp-chat-group-themes-keywords.md'
+                    '/detailed-character-analysis/dp-chat-group/README.md'
                   ]
                 },
                 {
                   text: '基友交流群♂',
                   collapsible: true,
                   children: [
-                    '/detailed-character-analysis/bros-chat-group/README.md',
-                    '/detailed-character-analysis/bros-chat-group/dowen-detailed-analysis.md',
-                    '/detailed-character-analysis/bros-chat-group/juluo-group-chat-analysis.md',
-                    '/detailed-character-analysis/bros-chat-group/qialuoyi-detailed-analysis.md'
+                    '/detailed-character-analysis/bros-chat-group/README.md'
                   ]
                 }
               ]
@@ -65,21 +64,14 @@ module.exports = {
               text: '私人聊天',
               collapsible: true,
               children: [
-                '/detailed-character-analysis/private-chat/README.md',
-                '/detailed-character-analysis/private-chat/juluo-private-chat-analysis.md',
-                '/detailed-character-analysis/private-chat/dowen-private-chat-analysis.md',
-                '/detailed-character-analysis/private-chat/private-chat-themes-keywords.md'
+                '/detailed-character-analysis/private-chat/README.md'
               ]
             },
             {
-              text: '关系分析',
+              text: '思考过程',
               collapsible: true,
               children: [
-                '/detailed-character-analysis/juluo-dowen-relationship-analysis/README.md',
-                '/detailed-character-analysis/juluo-wangxinrui-relationship-analysis.md',
-                '/detailed-character-analysis/juluo-overnight-dowen-relationship-analysis.md',
-                '/detailed-character-analysis/juluo-changting-luoyuwai-relationship-analysis.md',
-                '/detailed-character-analysis/juluo-happy-chocolate-relationship-analysis.md'
+                '/detailed-character-analysis/thinking-process/README.md'
               ]
             }
           ]
@@ -172,4 +164,4 @@ module.exports = {
     ['meta', { name: 'keywords', content: '橘络,人物分析,群聊分析,私人聊天,关系分析' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }]
   ]
-}
+})
