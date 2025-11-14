@@ -9,6 +9,9 @@ export default defineUserConfig({
   title: '橘络人物分析文档',
   description: '一个全面的橘络人物分析项目 - VuePress版本',
   
+  // 明确指定输出目录
+  dest: './dist',
+  
   // Bundler配置
   bundler: viteBundler(),
   
