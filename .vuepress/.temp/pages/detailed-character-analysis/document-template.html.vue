@@ -1,0 +1,159 @@
+<template><div><h1 id="文档标题-分析类型" tabindex="-1"><a class="header-anchor" href="#文档标题-分析类型"><span>[文档标题] - [分析类型]</span></a></h1>
+<h2 id="📋-文档信息" tabindex="-1"><a class="header-anchor" href="#📋-文档信息"><span>📋 文档信息</span></a></h2>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>文档类型</strong></td>
+<td>[分析报告/详细分析/关系分析等]</td>
+</tr>
+<tr>
+<td><strong>分析对象</strong></td>
+<td>[人物名称/关系对象]</td>
+</tr>
+<tr>
+<td><strong>数据来源</strong></td>
+<td>[聊天记录文件/时间范围]</td>
+</tr>
+<tr>
+<td><strong>分析时间</strong></td>
+<td>[分析日期]</td>
+</tr>
+<tr>
+<td><strong>文档版本</strong></td>
+<td>v1.0</td>
+</tr>
+</tbody>
+</table>
+<h2 id="📊-执行摘要" tabindex="-1"><a class="header-anchor" href="#📊-执行摘要"><span>📊 执行摘要</span></a></h2>
+<p>[简要概述分析的主要发现和结论]</p>
+<h2 id="🔍-分析维度" tabindex="-1"><a class="header-anchor" href="#🔍-分析维度"><span>🔍 分析维度</span></a></h2>
+<h3 id="_1-基本信息" tabindex="-1"><a class="header-anchor" href="#_1-基本信息"><span>1. 基本信息</span></a></h3>
+<ul>
+<li><strong>用户名/昵称</strong>: [具体信息]</li>
+<li><strong>UID</strong>: [具体信息]</li>
+<li><strong>主要活跃群组</strong>: [具体信息]</li>
+<li><strong>消息数量</strong>: [具体统计]</li>
+<li><strong>活跃时间</strong>: [时间范围]</li>
+</ul>
+<h3 id="_2-性格特征分析" tabindex="-1"><a class="header-anchor" href="#_2-性格特征分析"><span>2. 性格特征分析</span></a></h3>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+<h3 id="_3-行为模式分析" tabindex="-1"><a class="header-anchor" href="#_3-行为模式分析"><span>3. 行为模式分析</span></a></h3>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+<h3 id="_4-人际关系处理" tabindex="-1"><a class="header-anchor" href="#_4-人际关系处理"><span>4. 人际关系处理</span></a></h3>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+<h3 id="_5-情感表达分析" tabindex="-1"><a class="header-anchor" href="#_5-情感表达分析"><span>5. 情感表达分析</span></a></h3>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+<h2 id="📈-数据统计与分析" tabindex="-1"><a class="header-anchor" href="#📈-数据统计与分析"><span>📈 数据统计与分析</span></a></h2>
+<h3 id="消息频率统计" tabindex="-1"><a class="header-anchor" href="#消息频率统计"><span>消息频率统计</span></a></h3>
+<table>
+<thead>
+<tr>
+<th>时间段</th>
+<th>消息总数</th>
+<th>日均消息数</th>
+<th>互动频率</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[时间段1]</td>
+<td>[数量]</td>
+<td>[数量]</td>
+<td>[指数]</td>
+</tr>
+<tr>
+<td>[时间段2]</td>
+<td>[数量]</td>
+<td>[数量]</td>
+<td>[指数]</td>
+</tr>
+</tbody>
+</table>
+<h3 id="话题分布分析" tabindex="-1"><a class="header-anchor" href="#话题分布分析"><span>话题分布分析</span></a></h3>
+<ul>
+<li><strong>主要话题类别</strong>: [类别1], [类别2], [类别3]</li>
+<li><strong>话题演变趋势</strong>: [趋势描述]</li>
+<li><strong>高频词汇</strong>: [词汇列表]</li>
+</ul>
+<h3 id="情感表达量化" tabindex="-1"><a class="header-anchor" href="#情感表达量化"><span>情感表达量化</span></a></h3>
+<table>
+<thead>
+<tr>
+<th>情感类别</th>
+<th>使用频率</th>
+<th>表达特点</th>
+<th>发展趋势</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[情感1]</td>
+<td>[频率]</td>
+<td>[特点]</td>
+<td>[趋势]</td>
+</tr>
+<tr>
+<td>[情感2]</td>
+<td>[频率]</td>
+<td>[特点]</td>
+<td>[趋势]</td>
+</tr>
+</tbody>
+</table>
+<h2 id="💡-关键发现" tabindex="-1"><a class="header-anchor" href="#💡-关键发现"><span>💡 关键发现</span></a></h2>
+<h3 id="核心优势" tabindex="-1"><a class="header-anchor" href="#核心优势"><span>核心优势</span></a></h3>
+<ol>
+<li></li>
+<li></li>
+<li></li>
+</ol>
+<h3 id="潜在挑战" tabindex="-1"><a class="header-anchor" href="#潜在挑战"><span>潜在挑战</span></a></h3>
+<ol>
+<li></li>
+<li></li>
+<li></li>
+</ol>
+<h2 id="🎯-中肯评价" tabindex="-1"><a class="header-anchor" href="#🎯-中肯评价"><span>🎯 中肯评价</span></a></h2>
+<h3 id="综合评价" tabindex="-1"><a class="header-anchor" href="#综合评价"><span>综合评价</span></a></h3>
+<p>[对分析对象的全面评价]</p>
+<h3 id="发展建议" tabindex="-1"><a class="header-anchor" href="#发展建议"><span>发展建议</span></a></h3>
+<ol>
+<li></li>
+<li></li>
+<li></li>
+</ol>
+<h2 id="🔗-相关文档" tabindex="-1"><a class="header-anchor" href="#🔗-相关文档"><span>🔗 相关文档</span></a></h2>
+<ul>
+<li><a href="%E9%93%BE%E6%8E%A5">相关文档1</a></li>
+<li><a href="%E9%93%BE%E6%8E%A5">相关文档2</a></li>
+<li><a href="%E9%93%BE%E6%8E%A5">相关文档3</a></li>
+</ul>
+<hr>
+<p><strong>最后更新</strong>: [日期]<br>
+<strong>分析基于</strong>: [数据来源说明]<br>
+<strong>文档状态</strong>: [完成/草稿/修订中]</p>
+</div></template>
+
+

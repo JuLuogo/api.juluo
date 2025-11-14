@@ -1,0 +1,160 @@
+// VuePress 性能优化样式
+// 图片懒加载和优化
+.theme-default-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  
+  // 图片懒加载优化
+  &.lazy {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    
+    &.loaded {
+      opacity: 1;
+    }
+  }
+  
+  // 防止布局偏移
+  &[width], &[height] {
+    aspect-ratio: attr(width) / attr(height);
+  }
+}
+
+// 代码块优化
+.theme-default-content div[class*="language-"] {
+  pre {
+    margin: 0;
+    padding: 1rem;
+    overflow-x: auto;
+    
+    // 优化代码滚动性能
+    &::-webkit-scrollbar {
+      height: 6px;
+    }
+    
+    &::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+      background: #c1c1c1;
+      border-radius: 3px;
+    }
+  }
+}
+
+// 导航栏性能优化
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  backdrop-filter: blur(10px);
+  
+  // 减少重绘
+  will-change: transform;
+}
+
+// 侧边栏优化
+.sidebar {
+  // 固定侧边栏，避免滚动时重排
+  position: sticky;
+  top: 3.6rem;
+  height: calc(100vh - 3.6rem);
+  overflow-y: auto;
+  
+  // 优化滚动性能
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 2px;
+  }
+}
+
+// 内容区域优化
+.theme-default-content {
+  // 优化文本渲染
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  // 优化图片加载
+  img {
+    loading: lazy;
+  }
+  
+  // 表格优化
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    
+    th, td {
+      padding: 0.6rem 1rem;
+      border: 1px solid #e2e2e2;
+    }
+    
+    th {
+      background-color: #f8f8f8;
+      font-weight: 600;
+    }
+  }
+}
+
+// 移动端优化
+@media (max-width: 719px) {
+  .navbar {
+    padding: 0.7rem 1rem;
+  }
+  
+  .sidebar {
+    top: 0;
+    height: 100vh;
+  }
+  
+  .theme-default-content {
+    padding: 1rem;
+    
+    img {
+      margin: 0.5rem auto;
+    }
+  }
+}
+
+// 暗色模式优化
+@media (prefers-color-scheme: dark) {
+  .theme-default-content table {
+    th, td {
+      border-color: #444;
+    }
+    
+    th {
+      background-color: #2d2d2d;
+    }
+  }
+  
+  .sidebar::-webkit-scrollbar-thumb {
+    background: #666;
+  }
+}
+
+// 打印优化
+@media print {
+  .navbar,
+  .sidebar {
+    display: none;
+  }
+  
+  .theme-default-content {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+}

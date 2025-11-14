@@ -141,19 +141,18 @@ export default defineUserConfig({
     ['@vuepress/plugin-nprogress', true],
   ],
   
+  // 自定义样式
+  // extendsMarkdown配置已移除，因为VuePress 2.0不支持动态require
+  
   // 性能优化配置
   bundlerConfig: {
     vite: {
+      // 构建优化
       build: {
-        chunkSizeWarningLimit: 2000,
-        rollupOptions: {
-          output: {
-            manualChunks: {
-              'vuepress': ['vue', 'vue-router'],
-              'theme': ['@vuepress/theme-default'],
-            }
-          }
-        }
+        // 代码分割优化
+        chunkSizeWarningLimit: 1000,
+        // 资源优化
+        assetsInlineLimit: 4096
       }
     }
   },
@@ -161,7 +160,25 @@ export default defineUserConfig({
   // 头部配置
   head: [
     ['link', { rel: 'icon', href: '/loge/1.png' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com' }],
+    ['link', { rel: 'dns-prefetch', href: 'https://fonts.gstatic.com' }],
     ['meta', { name: 'keywords', content: '橘络,人物分析,群聊分析,私人聊天,关系分析' }],
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }]
-  ]
+    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#3eaf7c' }],
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' }]
+  ],
+  
+  // 缓存和性能优化
+  cache: true,
+  
+  // 构建输出配置
+  dest: './dist',
+  
+  // 临时文件目录
+  temp: './.vuepress/.temp',
+  
+  // 缓存目录
+  cacheDir: './.vuepress/.cache'
 })
