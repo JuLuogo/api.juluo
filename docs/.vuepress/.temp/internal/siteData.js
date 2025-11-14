@@ -1,0 +1,1 @@
+export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"zh-CN\",\"title\":\"橘络人物分析文档\",\"description\":\"一个全面的橘络人物分析项目 - VuePress版本\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"/loge/1.png\"}],[\"meta\",{\"name\":\"keywords\",\"content\":\"橘络,人物分析,群聊分析,私人聊天,关系分析\"}],[\"meta\",{\"name\":\"theme-color\",\"content\":\"#3eaf7c\"}]],\"locales\":{}}")
